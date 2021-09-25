@@ -34,7 +34,7 @@ function createMarkers(response) {
   // Pull the "stations" property from response.data.
   var stations = response.data.stations;
 
-  // Initialize an array to hold the bike markers.
+  // Initialize an array to hold bike markers.
   var bikeMarkers = [];
 
   // Loop through the stations array.
